@@ -20,13 +20,15 @@ body {
 .swiper-slide {
   font-size: 22px;
   background: #fff;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .text {
-    width: 90%;
-    margin: 0 auto;
+    max-width: 90%;
+    max-height:100%;
+    line-height: 130%;
 }
 
 .img {
